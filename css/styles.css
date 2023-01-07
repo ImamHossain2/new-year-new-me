@@ -44,7 +44,7 @@ section:not(#hero) {
     display: flex;
     align-items: center;
     min-height: 55rem;
-    background: url("./images/banner/banner1.png") no-repeat center bottom / cover;
+    background: url("/images/banner/banner1.png") no-repeat center bottom / cover;
 }
 
 .hero {
@@ -162,7 +162,7 @@ section:not(#hero) {
 
 .notice {
     position: relative;
-    background: url("./images/watch.png") no-repeat center / cover;
+    background: url("/images/watch.png") no-repeat center / cover;
     margin-top: 8.125rem;
     padding: 4.063rem;
     border-radius: 0.5rem;
@@ -195,6 +195,9 @@ section:not(#hero) {
     color: #f15b22;
     background-color: #fff;
 }
+
+/* Skill To Gain Section */
+
 .section-title{
     text-align: center;
     font-weight: 700;
